@@ -1,6 +1,8 @@
-# <img src="./llama.png" alt="Icon" width="50" height="50"> Extrapolating Large Language Models to Non-English by Aligning Languages
+# Extrapolating Large Language Models to Non-English by Aligning Languages
 
 This repository contains the code implementation for the project that aims to empower pre-trained Large Language Models (LLMs) on non-English languages by building semantic alignment across languages. The project explores cross-lingual instruction-tuning and multilingual instruction-tuning techniques. The code implementation is based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca).
+
+![](./xllama.jpg)
 
 ## Requirements and Installation
 To install this repository, follow these steps:
@@ -17,7 +19,7 @@ For detailed information about the conda environment, refer to the environment.y
 Start by downloading the pre-trained LLM into the ./model directory.
 
 ### Download Dataset
-You can download all the datasets used in this project from this [link](https://drive.google.com/file/d/1Vk17GBIoJNN0QGqsTLWSuzEMvr4bFTvm/view?usp=drive_link). Once downloaded, place the datasets in the ./data directory. The datasets include:
+You can download all the datasets used in this project from this [link](https://drive.google.com/file/d/1bkejieKDJFDJ45UmQYiY4eeqpGBwj-r-/view?usp=drive_link). Once downloaded, place the datasets in the ./data directory. The datasets include:
 
 * Training dataset
   * Alpaca
